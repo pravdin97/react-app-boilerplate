@@ -1,8 +1,9 @@
 import React from 'react';
-import style from './style.less';
+
+import '../styles/main.less';
 
 export default function App() {
   return (
-    <div className={style.main}>App</div>
+    <div className="layout">App 3</div>
   );
 }
